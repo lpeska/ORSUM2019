@@ -12,7 +12,7 @@ Source codes stored in this repository represents a simple RS server utilized fo
 - Iterative votes updating algorithm is implemented in update_dhondt_params() method of the server.py file
 
 ## Dataset
-- The dataset utilized in this paper comes from a mid-sized Czech travel agency. The data.zip contains all dataset tables. 
+- The dataset utilized in this paper comes from a mid-sized Czech travel agency. The data.zip file contains all dataset tables (CB attributes, textual description and user's feedback). 
 - Note that due to the source of the data, some information are written in Czech (e.g., tour descriptions and CB attribute names & values)
 - Dataset pre-processing steps are defined in OfflineDataPreparation.ipynb, training base recommenders is implemented in createOnlineModels.py file
 
